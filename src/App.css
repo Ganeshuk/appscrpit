@@ -1,0 +1,121 @@
+.App{
+  background: #FFFFFF;
+  
+}
+.nav-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  
+}
+.h1{
+  color:#252020;
+  font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 1px;
+
+
+}
+nav{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.nav-heading{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:700px;
+  margin-right: 78px;
+}
+.head{
+  font-family: Simplon Norm;
+font-size: 40px;
+font-weight: 400;
+line-height: 72px;
+letter-spacing: 1px;
+text-align: center;
+width:570px;
+
+}
+.p{
+  font-family: Simplon Norm;
+font-size: 22px;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+width:640px;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  
+}
+hr{
+  width:90%;
+}
+.final{
+  display: flex;
+  flex-direction: column;
+  width:200px;
+  transition: all 3s;
+}
+p{
+  padding:10px
+}
+.filter{
+  display: flex;
+  justify-content: space-around;
+}
+.final-part1{
+  display: flex;
+}
+.item-img{
+  height:300px;
+  width:280px;
+}
+li{
+  width:300px;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width:700px){
+  .nav-content{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    border-style: dashed;
+  }
+  .h1{
+    font-size: 10px;
+  }
+  .im{
+    height:20px
+  }
+  .content{
+    height: 200px;
+    width:400px;
+  }
+  .head{
+    font-size: 20px;
+  }
+  .p{
+    font-size: 20px;
+  }
+
+}
